@@ -1,0 +1,60 @@
+/* Additional dark mode adjustments for better readability */
+
+/* Navbar dark mode */
+.dark-mode .navbar {
+    background-color: transparent;
+}
+
+.dark-mode .navbar.scrolled {
+    background-color: rgba(30, 41, 59, 0.95);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Hero section dark mode */
+.dark-mode .hero {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+/* Search box dark mode */
+.dark-mode .search-box {
+    background-color: var(--surface-color);
+    border-color: var(--border-color);
+}
+
+.dark-mode .search-box input {
+    color: var(--text-primary);
+}
+
+.dark-mode .search-box input::placeholder {
+    color: var(--text-secondary);
+}
+
+/* Book cards dark mode */
+.dark-mode .book-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+}
+
+.dark-mode .book-cover-placeholder {
+    background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
+    color: var(--primary-color);
+}
+
+/* Form inputs dark mode */
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+.dark-mode input::placeholder {
+    color: var(--text-secondary);
+}
+
+/* Footer dark mode */
+.dark-mode .footer {
+    background-color: var(--surface-color);
+    border-top: 1px solid var(--border-color);
+}
